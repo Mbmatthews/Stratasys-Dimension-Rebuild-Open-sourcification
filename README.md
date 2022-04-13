@@ -4,6 +4,7 @@ The purpose of this project was to rebuild an out-of-service Stratasys Dimension
 This machine will be run on Klipper with a raspberry pi 4b as the host and a BTT Octopus as the mainboard.  The repos for fluidd-klipper and the octopus board documentation can be found below:
 
 https://github.com/fluidd-core/FluiddPi/releases/tag/v1.17.0
+
 https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0
 
 Fluidd is the web ui that will run on the pi giving easy access to the klipper config files.  Due to networking issues at my work this will probably not be super useful so an ethernet connection directly to the pi will probably be necesarry to ssh into it to get the files, change network settings, etc. 
